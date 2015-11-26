@@ -1,0 +1,15 @@
+/*
+    Workflowy Highlighter
+        Converts any underlined content to a highlighted selection on the page.
+    Caveats
+
+    Credit
+
+    License
+        n/a
+*/
+
+span.contentUnderline {
+    background-color: #FFFF00 !important;
+    text-decoration: none !important;
+}

@@ -1,0 +1,19 @@
+/*
+    Notes as fixed width
+        Tweak the notes field to be a fixed width or monospace font
+        helps when trying to line up lines of text, ascii artwork, source code
+	Caveats
+		
+    Credits:
+        https://github.com/rcherny
+    License:
+        n/a
+*/
+
+div.notes .content {
+	font-family: Consolas, monospace;
+}
+
+div.notes .contentTag {
+    margin-left: 5px !important;
+}

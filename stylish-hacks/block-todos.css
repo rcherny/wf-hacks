@@ -1,0 +1,35 @@
+/*
+    Workflowy Block Todo tags
+        Experiment to convert #todo tags into nothing but a colored block
+        (Effectively hides the text part of the tag so the # char is a color)
+    Caveats
+        Early experiment.
+        Mainly for use in conjunction with Focus Tags Open Space theme as it
+        serves virtually no purpose if your #todo tags are not a color
+    Credit
+        I don't want to take credit for this.
+    License
+        n/a
+*/
+
+
+/* this will work with the tag focus one */
+.name span.contentTag[title~='#todo']::before,
+.name span.contentTag[title~='#Todo']::before {
+/*	content: "\039e";
+    display: inline;
+    color: white; */
+}
+
+.name span.contentTag[title~='#todo'],
+.name span.contentTag[title~='#Todo'] {
+  display: inline-flex; /* inline block was causing issues */
+  width: 9px;
+  overflow:hidden;
+  white-space: nowrap;
+}
+
+.name span.contentTag[title~='#todo'] .contentTagText,
+.name span.contentTag[title~='#Todo'] .contentTagText {
+  opacity: 0;
+}

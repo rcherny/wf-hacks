@@ -1,0 +1,233 @@
+/*
+    Full Screen Minimal Light
+        Full screen minimal WF style on a light background.
+    Caveats
+
+    Credit
+        
+    License
+        n/a
+*/
+
+html, body, div.content {
+    /*font-size: 125% !important;*/
+}
+
+/* Text selection color */
+*::selection {
+  background: #DF013A;
+  color: #ffffff;
+}
+*::-moz-selection {
+  background: #DF013A;
+  color: #ffffff;
+}
+*::-webkit-selection {
+  background: #DF013A;
+  color: #ffffff;
+}
+
+
+
+/* Search result color */
+.content .contentMatch {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+
+/* Header bar white */
+#header {
+  background: #fff;
+  box-shadow: 0 0 0px #fff;
+}
+
+
+/* Tinker with the code below to change up the page titles:
+.selected>.name>.content {
+  line-height: 34px;
+  color: #000000;
+  font-family: Gotham;
+} */
+
+
+
+/* Bigger, faded plus (add) button */
+.addButton {
+  font-size: 60px;
+  color: #E6E6E6;
+  opacity: .4;
+}
+
+
+/* Breadcrumb Navigation content faded and opaque */
+.parent>.name>.content {
+  color: #E6E6E6;
+  opacity: .7;
+}
+.parent>.name>.parentArrow:before {
+  color: #E6E6E6;
+  opacity: .7;
+}
+
+
+
+/* "Save Now" button faded */
+.saveButton.saveNow {
+  color: #E6E6E6;
+}
+
+
+
+/* These buttons completely whited out to eliminate distractions */
+.saveButton, #helpButton, .showCompletedButton {
+  color: #FFFFFF;
+}
+
+
+
+/* logo image hidden for simplicity's sake */
+.pro_member #logo {
+  background-image: none;
+}
+
+
+
+/* Undo and redo buttons completely faded out */
+.undo-icon {
+  opacity: .0;
+}
+.redo-icon {
+  opacity: .0;
+}
+
+
+
+/* Button borders whited out */
+.saveButton, .showCompletedButton, #buttonBar, #helpButton {
+  border-bottom: 1px #FFFFFF;
+  border-left: 1px #FFFFFF;
+  border-right: 1px #FFFFFF;
+  }
+
+
+
+/* Search box background barely visible */
+#searchBox {
+  position: relative;
+  color: #000;
+  background-color: #E6E6E6;
+  opacity: .1;
+  border: 1px #FFFFFF;
+}
+
+/* Searchbox with my font preference */
+#searchBox {
+  font-family: 'Gotham Rounded Bold','Helvetica Neue',Arial,sans-serif;
+}
+
+
+
+/* "Show starred pages" button faded */
+#savedViewHUDButton {
+  opacity: .1;
+}
+
+/* "Star this page" button faded */
+.pageStar {
+  opacity: .1;
+}
+
+/* Menu button faded */
+.menu-icon {
+  opacity: .2;
+}
+
+
+
+/* Fluid-width - no borders and less margin padding */
+.page {
+  margin:0 !important;
+  padding:30px 120px 20px;
+  width:100%;
+  max-width:100%;
+  box-sizing:border-box;
+}
+
+.corner, .edge {
+  display:none;
+}
+
+#pageContainer {
+  margin-top:0;
+}
+
+.page {
+  border: 0px;
+}
+
+
+
+/* Site slogan (Make Lists. Not War,) and other links at the footer of the page faded */
+.siteSlogan {
+  color: #E6E6E6;
+}
+
+#bottomLinks a {
+  color: #E6E6E6;
+}
+
+
+
+/* Bullets downsized a tad and a little more opaque */
+.bullet {
+  height: 17px;
+  width: 17px;
+  text-indent: 3px;
+  line-height: 15px;
+  background-color: #F2F2F2;
+  opacity: .7;
+}
+
+
+
+/* Fade out completed items + fade in on hover over */
+@media screen {
+  .project.done           .content,
+  .project.doneAppearance .content {
+    opacity: 0.4;
+  }
+
+  .project.done:hover           .content,
+  .project.done:focus           .content,
+  .project.done                 .content:focus, /* .project:focus doesn't work in Chrome as it's not editable (untested in FF) */
+  .project.doneAppearance:hover .content,
+  .project.doneAppearance:focus .content,
+  .project.doneAppearance       .content:focus {
+    opacity: 1;
+  }
+}
+
+
+/* Help Dialogue animation*/
+#keyboardShortcutHelper {
+  padding-right: 0px;
+  height:70%;
+  width: 225px;
+  overflow-y: scroll;
+  left: auto;
+  right: 10px;
+  opacity:0;
+  transition:opacity 0.5s linear;
+}
+
+#keyboardShortcutHelper.closed {
+  height: auto;
+  overflow-y: auto;
+}
+
+#keyboardShortcutHelper:hover {
+  opacity:1;
+  transition-delay:0s;
+}

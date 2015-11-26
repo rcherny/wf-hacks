@@ -1,0 +1,15 @@
+/*
+    Workflowy Focus Line Dark
+        With this enabled the current focused line will be highlighted
+        for use on dark backgrounds such as grey
+    Caveats
+
+    Credits
+        https://github.com/rcherny
+    License
+        n/a
+*/
+
+[contenteditable]:focus {
+    background-color: #414141;
+}

@@ -1,0 +1,138 @@
+/*
+    Focus and Tags Open Space
+        Opens up some space between items and colors some tags.
+    Caveats
+        Was a very early attempt to hack some styles. Not very mature / refined.
+        Works on both light and dark backgrounds.
+    Credit
+        https://github.com/rcherny
+    License
+        n/a
+*/
+
+div.notes {
+    font-family: Consolas, monospace;
+}
+
+/* orange */
+.name span.contentTag[title~='#todo'],
+.name span.contentTag[title~='#Todo'] {
+   background-color: #FF5700 !important;
+   color: white !important;
+}
+
+/* red */
+.name span.contentTag[title~='#important'] {
+   background-color: #E01D27 !important;
+   color: white !important;
+}
+
+/* purple dates */
+.name span.contentTag[title*='#2014'],
+.name span.contentTag[title*='#2015'] {
+   background-color: #9D8ED1 !important;
+   color: white !important;
+}
+
+/* gray @ tags */
+.name span.contentTag[title*='@'] {
+   background-color: #919191 !important;
+   color: white !important;
+}
+
+.name span.contentTag[title~='@Today'],
+.name span.contentTag[title~='@robC'] {
+   background-color: #FFFFCC !important;
+   color: #444 !important;
+}
+
+.contentTagText {
+    text-decoration: none;
+}
+
+.editing .projectTag {
+    display: inline;
+}
+
+.isProject .editing .contentMatch {
+    background-color: #EEE;
+}
+
+.content .contentMatch {
+	background-color: #ffc;
+    color: #a4a4a4;
+}
+
+.isProject > .name .content {
+    margin-left: -5px;
+}
+
+.isProject > .name .editing.content {
+    margin-left: 0px;
+}
+
+.isProject.tm_p1 > .name > .editing.content, .isProject.tm_p2 > .name > .editing.content, .isProject.tm_p3 > .name > .editing.content {
+    color: #EEE;
+}
+
+.mainTreeRoot > .children > .project {
+    margin-bottom: 15px;
+}
+
+.name .contentTag {
+    color: white !important;
+        background-color: #46A546 !important;
+        border-radius: 3px 3px 3px 3px !important;
+        padding: 2px 3px 2px !important;
+}
+
+.name .editing .contentTag {
+    color: #FBEED5;
+}
+
+.notes .contentTag, .contentTag.projectTag {
+    border-radius: 2px;
+}
+
+.projectTag {
+   /* display: block; */
+    margin-left: 5px;
+    margin-right: 25px;
+}
+
+.projectTag .contentTagClickable:hover {
+    background-color: transparent;
+}
+
+.tm_p1 > .name > .content {
+    color: #B94A48;
+}
+
+.tm_p1 > .name > .editing.content, .tm_p2 > .name > .editing.content, .tm_p3 > .name > .editing.content {
+    color: #FFF;
+}
+
+.tm_p2 > .name > .content {
+    color: #468847;
+}
+
+.tm_p3 > .name > .content {
+    color: #3A87AD;
+}
+
+.tm_refile {
+    display: none;
+}
+
+.tm_refile.matches {
+    display: block;
+}
+
+.tm_waiting {
+    display: none;
+}
+
+.tm_waiting.matches {
+    display: block;
+    opacity: 0.5;
+}

@@ -1,0 +1,60 @@
+/*
+    Inject Todo Icons
+        Experimental / In-progress attempt to inject CSS-only-based icons
+        into the document to go with #todo tags
+    Caveats
+        Seriously a work in progress. Barely useful at this point (early attempt)
+    Credit
+        I don't want to take credit for this.
+    License
+        n/a
+*/
+
+.name span.contentTag[title~='#todo'] {
+	position: relative !important;
+    z-index: 1 !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.name span.contentTag[title~='#todo']::before,
+.name span.contentTag[title~='#todo']::after {
+	content: "" !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 0 !important;
+}
+
+.name span.contentTag[title~='#todo'] > .contentTagText::before,
+.name span.contentTag[title~='#todo'] > .contentTagText::after {
+    left: 14px !important;
+    width: 12px !important;
+    height: 3px !important;
+    border-width: 6px 0 !important;
+    border-style: double !important;
+    border-color: #c55500 !important;
+    background: transparent !important;
+	margin: -8px 0 0;
+	content: "";
+    position: absolute;
+    top: 50%;
+}
+
+.name span.contentTag[title~='#todo'] > .contentTagText::after {
+   left: 10px !important;
+   width: 2px !important;
+}
+
+.name span.contentTag[title~='#todo'] > .contentTagText {
+	display: inline-block !important;
+    border: 0 !important;
+    padding-left: 22px !important;
+    color: #c55500 !important;
+    /*float: left;*/
+}
+
+/*.name span.contentTag[title~='#todo'] .contentTagText::before,
+.name span.contentTag[title~='#todo'] .contentTagText::after {
+
+}*/

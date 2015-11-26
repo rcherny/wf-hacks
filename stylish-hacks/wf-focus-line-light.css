@@ -1,0 +1,22 @@
+/*
+    Workflowy Focus Line Light
+        With this enabled the current focused line will be highlighted
+        for use on light backgrounds such as white
+    Caveats
+        
+    Credits
+        https://github.com/rcherny
+    License
+        n/a
+*/
+
+[contenteditable]:focus {
+    background-color: #eee;
+}
+
+.parent > .name > .content:hover {
+    color: #444;
+    opacity: 1;
+    transition: color .5s ease-out;
+    transition-delay: initial;
+}

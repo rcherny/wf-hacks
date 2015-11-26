@@ -1,0 +1,19 @@
+/*
+    Expand All Notes
+        With this applied the notes will be expanded on a Workflowy page
+        with or without focus on that field
+    Caveats
+        
+    Credits
+
+    License
+        n/a
+*/
+
+.noted>.notes>.content {
+    height: auto;
+    overflow: visible;
+    display: block;
+    -webkit-line-clamp: none;
+    border-bottom: 1px dotted #eee;
+}
