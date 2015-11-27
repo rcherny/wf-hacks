@@ -27,13 +27,13 @@ Buy it!!
 
 Stylish is a browser extension that applies user styles to Web pages. A lot of features and functionality can be brought to Workflowy by the simple application of some custom CSS.
 
-There's a growing collection of styles on this site.
-
 ### CSS Sources for Some of the CSS Hacks.
 
-Collection of CSS experiments and themes stolen from https://userstyles.org.
+There's a growing collection of styles on this site. Collection of CSS experiments and themes "stolen" from https://userstyles.org.
 
 Ported here, some originals, and hoping to consolidate user / hackers ... works in progress too. Found in the [stylish-hacks folder](https://github.com/rcherny/wf-hacks/tree/master/stylish-hacks).
+
+> If any original authors of these styles has concerns about their hard work being here without "credit" or at all, please don't hesitate to contact me. I am modifying these for my own personal use for learning purposes and to make using Workflowy even more fun than it already is.
 
 ## Bookmarklets
 
