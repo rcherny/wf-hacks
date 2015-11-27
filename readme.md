@@ -7,6 +7,12 @@
 
 But they're pretty cool in the meantime.
 
+## What is This?
+
+This is a collection of JavaScript snippets and CSS hacks I'm working on for adding / modifying the Workflowy user experience. 
+
+I'm also collecting a number of helpful links at the moment (see below).
+
 ## Supporting Workflowy
 
 While Workflowy is free to use, I would encourage any user to [sign up for Workflowy Pro](https://workflowy.com/accounts/register/) and support the product going forwards. It's a minimal monthly charge and totally worth it (IMHO).
@@ -35,11 +41,11 @@ Ported here, some originals, and hoping to consolidate user / hackers ... works 
 
 > If any original authors of these styles has concerns about their hard work being here without "credit" or at all, please don't hesitate to contact me. I am modifying these for my own personal use for learning purposes and to make using Workflowy even more fun than it already is.
 
-## Bookmarklets
+## Bookmarklets / JS Snippets
 
 A Bookmarklet is a small snippet of JavaScript that can be saved in your bookmarks / favorites list and executed against the current Web page to add or modify features, functionality, or even the UI.
 
-The files in the ./snippets folder here can be converted to Bookmarklets to be used on Workflowy. *That said*, these are *initial experiments* and I'd be careful when trying them out.
+The files in the `./snippets` folder here can be converted to Bookmarklets to be tested with Workflowy. *That said*, these are *initial experiments* and I'd be careful when trying them out.
 
 Read [more in the snippets folder](./snippets/readme.md).
 
@@ -60,7 +66,7 @@ In the meantime here are a few nice ones...
 
 # Longer Term
 
-I would love to begin to create a user community around Workflowy that helps other users, and adds to the rich ecosystem and platform already created through the creators of Workflowy.
+I would love to begin to create a user community around Workflowy that helps other users, and adds to the rich ecosystem and platform already created by the creators of Workflowy.
 
 ## Contributions
 
