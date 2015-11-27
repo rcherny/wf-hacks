@@ -1,7 +1,7 @@
 
 # Workflowy Hacks
 
-Workflowy is an incredibly versatile online outliner and productivity tool.
+[Workflowy](https://workflowy.com) is an incredibly versatile online outliner and productivity tool.
 
 > It is important to note that not a single one of these extensions, hacks, or modifications to Workflowy are endorsed by the creators of Workflowy and absolutely no warranty is expressed or implied by their being hosted in this repository or on external sites that this links to. Let the buyer beware — *use at your own risk*. They may quit working at any time or cause your computer or device to explode into a smoldering pile of rubble.
 
@@ -33,7 +33,7 @@ There's a growing collection of styles on this site.
 
 Collection of CSS experiments and themes stolen from https://userstyles.org.
 
-Ported here, some originals, and hoping to consolidate user / hackers ... works in progress too. Found in the [stylish-hacks folder](./stylelish-hacks/).
+Ported here, some originals, and hoping to consolidate user / hackers ... works in progress too. Found in the [stylish-hacks folder](https://github.com/rcherny/wf-hacks/tree/master/stylish-hacks).
 
 ## Bookmarklets
 
@@ -64,7 +64,7 @@ I would love to begin to create a user community around Workflowy that helps oth
 
 ## Contributions
 
-If you have some favorite hacks you'd like to contribute, feel free to fork this repo and issue a pull request. If you don't know what that means, touch base with me on [twitter.com/rcherny](Twitter) or something.
+If you have some favorite hacks you'd like to contribute, feel free to fork this repo and issue a pull request. If you don't know what that means, touch base with me on [Twitter](twitter.com/rcherny) or something.
 
 ## Issues or Problems
 
