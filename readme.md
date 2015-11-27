@@ -68,4 +68,4 @@ If you have some favorite hacks you'd like to contribute, feel free to fork this
 
 ## Issues or Problems
 
-Feel free to open any tickets on here. I'll see what I can do to help out.
+Feel free to open any tickets on here. I'll see what I can do to help out. Please realize though a lot of these scripts and styles are rough works in progress. No promises :)
