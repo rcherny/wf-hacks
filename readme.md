@@ -70,7 +70,7 @@ I would love to begin to create a user community around Workflowy that helps oth
 
 ## Contributions
 
-If you have some favorite hacks you'd like to contribute, feel free to fork this repo and issue a pull request. If you don't know what that means, touch base with me on [Twitter](twitter.com/rcherny) or something.
+If you have some favorite hacks you'd like to contribute, feel free to fork this repo and issue a pull request. If you don't know what that means, touch base with me on [Twitter](https://twitter.com/rcherny) or something.
 
 ## Issues or Problems
 
