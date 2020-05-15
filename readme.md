@@ -1,3 +1,8 @@
+# NOTE: THIS IS OUT OF DATE AND THESE MAY NO LONGER WORK.
+
+- The WorkFlowy team has created a "real" API of sorts
+- These may no longer work
+- For a good collection of "real" current and maintained scripts, I'd direct you to [Rawbytz](https://github.com/rawbytz)
 
 # Workflowy Hacks
 
